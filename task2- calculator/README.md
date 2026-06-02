@@ -41,4 +41,3 @@ The program follows a clean, linear architecture divided into four distinct phas
 * **Dynamic Data Typing:** By using `float()`, the code flexibly accepts both integers and decimals rather than restricting the user to whole numbers.
 * **Robust Edge-Case Handling:** The nested `if second == 0:` check prevents the program from crashing with a `ZeroDivisionError`.
 * **Input Validation:** The final `else` block acts as a catch-all that gracefully manages unsupported operator inputs without breaking execution.
-*
