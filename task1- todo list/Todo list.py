@@ -67,7 +67,7 @@ task_entry.pack(pady=5)
 add_button = tk.Button(root, text="Add Task", width=20, bg="lightblue", command=add_task)
 add_button.pack(pady=5)
 
-done_button = tk.Button(root, text="Mark as Done", width=20, bg="lightgreen", command=mark_done)
+done_button = tk.Button(root, text="Mark as Done", width=20, bg="pink", command=mark_done)
 done_button.pack(pady=5)
 
 delete_button = tk.Button(root, text="Delete Task", width=20, bg="salmon", command=delete_task)
